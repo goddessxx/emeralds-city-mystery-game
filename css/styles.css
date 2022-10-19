@@ -1,0 +1,489 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+/* Header */
+h1,
+h4 {
+  font-family: "Major Mono Display", monospace;
+}
+h1 {
+  color: #864879;
+  font-size: 2.5em;
+  padding-top: 20px;
+}
+h4 {
+  color: #c060a1;
+  font-size: 1.5em;
+  font-style: italic;
+}
+span {
+  color: #b52b65;
+  font-weight: bold;
+}
+/* Button Links */
+input {
+  color: #e9a6a6;
+  font-size: 1.1em;
+  width: 185px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 95px;
+  background-color: #864879;
+  border-radius: 6%;
+  font-family: "Major Mono Display", monospace;
+  box-shadow: 7px 5px 30px #864879;
+}
+input:hover {
+  background-color: #3f3351;
+  border-color: #3f3351;
+}
+#start-button {
+  margin-right: 100px;
+}
+/* Task Inputs */
+
+/* Responsive Background */
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+/* Main Content */
+body {
+  text-align: center;
+  background-color: #261c2c;
+  overflow: hidden;
+  margin: 0;
+}
+p {
+  width: 650px;
+  text-align: center;
+  color: #87556f;
+  font-size: 0.9em;
+  line-height: 1.5;
+  font-family: "Major Mono Display", monospace;
+  display: inline-block;
+}
+#summary {
+  box-shadow: 3px 5px 50px #864879;
+  font-size: 1.1em;
+}
+/* Store Owner Task Page*/
+.ownertaskconvo {
+  box-shadow: 3px 5px 50px #864879;
+  width: 655px;
+  height: 900px;
+}
+#storeownercliparttaskpage {
+  float: right;
+  position: relative;
+  right: 150px;
+  top: 50px;
+}
+.storeconvo {
+  padding: 50px 0 0 0;
+  font-size: 1.2em;
+  text-align: left;
+}
+#next {
+  visibility: visible;
+  font-size: 1.5em;
+  margin-right: 400px;
+  position: relative;
+  top: 50px;
+}
+
+/* Conclusions Page */
+#optionAdecision {
+  display: none;
+}
+#optionAdecision,
+#storeownerdecision {
+  font-size: 1.5em;
+  box-shadow: 3px 5px 50px #864879;
+  width: 650px;
+  margin-left: 440px;
+  margin-top: 100px;
+}
+#conclbutton {
+  font-size: 0.9em;
+  display: block;
+  margin-left: 655px;
+}
+/* Introduction Page */
+#introduction {
+  font-size: 1.5em;
+  width: 500px;
+  display: inline-block;
+  margin: auto;
+  box-shadow: 7px 5px 30px #864879;
+  position: relative;
+  bottom: 180px;
+}
+#homelessguyclipart {
+  position: relative;
+  right: 60px;
+  top: 100px;
+}
+#homeless-guy {
+  bottom: 145px;
+  left: -5px;
+  position: relative;
+  margin: 0;
+}
+#storeownerclipart {
+  position: relative;
+  top: 100px;
+}
+#store-owner {
+  bottom: 145px;
+  right: 150px;
+  position: relative;
+  margin: 0;
+}
+#introtask {
+  position: relative;
+  top: 50px;
+}
+#selection {
+  position: relative;
+  bottom: 150px;
+  color: #c060a1;
+  font-size: 1.3em;
+  font-style: italic;
+  left: 20px;
+}
+/* Footer */
+.copyright {
+  padding-top: 80px;
+}
+/* Homeless guy Task Page */
+#witnesscontainer {
+  text-align: left;
+  font-size: 1.5em;
+  padding-top: 50px;
+  box-shadow: 3px 5px 50px #864879;
+  width: 750px;
+}
+#hgwitness {
+  float: right;
+  position: absolute;
+  top: 150px;
+  right: 80px;
+}
+#option-a,
+#option-b,
+a {
+  visibility: hidden;
+}
+#option-a {
+  padding-top: 20px;
+}
+#option-b {
+  position: relative;
+  bottom: 500px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  padding-left: 450px;
+  position: relative;
+  top: 100px;
+  color: #e9a6a6;
+  font-family: "Major Mono Display", monospace;
+  font-size: 0.7em;
+}
+a:hover {
+  color: #3f3351;
+}
+#link {
+  font-size: 1.1em;
+  position: absolute;
+  top: 590px;
+  right: 850px;
+}
+#link2 {
+  font-size: 0.7em;
+}
+/* Mobile Combatibility */
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+  #homelessguyclipart {
+    position: relative;
+    right: 20px;
+    width: 315px;
+  }
+  #homeless-guy {
+    position: relative;
+    right: 30px;
+  }
+  #store-owner {
+    position: relative;
+    left: 20px;
+  }
+  #selection {
+    position: relative;
+    right: -5px;
+  }
+  #storeownerclipart {
+    position: relative;
+    left: 60px;
+  }
+  #introduction {
+    position: relative;
+    left: 50px;
+  }
+  #introtask {
+    position: relative;
+    left: 10px;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+  #homelessguyclipart {
+    position: relative;
+    right: 20px;
+    width: 315px;
+  }
+  #homeless-guy {
+    position: relative;
+    right: 50px;
+  }
+  #store-owner {
+    position: relative;
+    left: -5px;
+  }
+  #selection {
+    position: relative;
+    right: 25px;
+  }
+  #storeownerclipart {
+    position: relative;
+    left: 60px;
+  }
+  #introduction {
+    position: relative;
+    right: 30px;
+  }
+  #introtask {
+    position: relative;
+    right: 35px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+  p {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    right: 30px;
+  }
+  img {
+    display: none;
+  }
+  #store-owner {
+    position: relative;
+    top: 80px;
+    right: 200px;
+  }
+  #homeless-guy {
+    position: relative;
+    top: 80px;
+  }
+  #selection {
+    position: relative;
+    top: 90px;
+  }
+  #summary {
+    width: 650px;
+    position: relative;
+    top: 5px;
+  }
+  #A {
+    margin-top: 180px;
+    margin-left: 320px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+  p {
+    position: relative;
+    top: 80px;
+    width: 100%;
+  }
+  img {
+    display: none;
+  }
+  #store-owner {
+    position: relative;
+    top: 80px;
+    right: 520px;
+  }
+  #homeless-guy {
+    position: relative;
+    top: 80px;
+  }
+  #selection {
+    position: relative;
+    top: 90px;
+  }
+  #summary {
+    width: 650px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+  p {
+    position: relative;
+    top: 80px;
+    width: 100%;
+  }
+  img {
+    display: none;
+  }
+  #store-owner {
+    position: relative;
+    top: 80px;
+    right: 520px;
+  }
+  #homeless-guy {
+    position: relative;
+    top: 80px;
+  }
+  #selection {
+    position: relative;
+    top: 90px;
+  }
+  #summary {
+    width: 650px;
+    position: relative;
+    top: 30px;
+  }
+  #start-button {
+    position: relative;
+    top: 40px;
+  }
+  #A,
+  #B {
+    margin-top: 120px;
+  }
+  #A {
+    margin-left: 170px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+  p {
+    position: relative;
+    top: 80px;
+    right: 20px;
+    width: 100%;
+    font-size: 0.7em;
+  }
+  img {
+    display: none;
+  }
+  #store-owner {
+    position: relative;
+    top: 80px;
+    right: 520px;
+  }
+  #homeless-guy {
+    position: relative;
+    top: 80px;
+  }
+  #selection {
+    position: relative;
+    top: 90px;
+  }
+  #summary {
+    width: 650px;
+    position: relative;
+    top: -5px;
+  }
+  #start-button {
+    position: relative;
+    top: -15px;
+  }
+  #A {
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 100px;
+    font-size: 0.5em;
+  }
+  #B {
+    width: 100px;
+    font-size: 0.5em;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  p {
+    position: relative;
+    top: 80px;
+    width: 100%;
+  }
+  img {
+    display: none;
+  }
+  #store-owner {
+    position: relative;
+    top: 80px;
+    right: 520px;
+  }
+  #homeless-guy {
+    position: relative;
+    top: 80px;
+  }
+  #selection {
+    position: relative;
+    top: 90px;
+  }
+  #summary {
+    width: 100%;
+    position: relative;
+    top: 30px;
+  }
+  #start-button {
+    position: relative;
+    top: 40px;
+  }
+}

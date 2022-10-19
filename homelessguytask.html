@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main id="witnesscontainer">
+      <img
+        src="images/homelessguy.png"
+        alt="Homeless man clipart"
+        id="hgwitness"
+        width="600"
+      />
+      <div id="homelessmanoption">
+        <ul>
+          <li><p>Homeless man: 'What do you want?'</p></li>
+          <li>
+            <p>
+              User: 'I was wondering if the night of Annas murder, if you saw
+              the murderers faces. '
+            </p>
+          </li>
+          <li>
+            <p>
+              Homeless man: 'Well...it depends, I like speaking more when I have
+              $50 in my pocket.'
+            </p>
+          </li>
+        </ul>
+      </div>
+      <form action="">
+        <input type="button" value="Give $50" onclick="optiona()" id="A" />
+        <input type="button" value="No" onclick="optionb()" id="B" />
+      </form>
+      <div id="option-a">
+        <img
+          src="images/homelessguy.png"
+          alt="Homeless man clipart"
+          id="hgwitness"
+          width="600"
+        />
+        <ul>
+          <li><p>User: 'Here, now tell me what you saw.'</p></li>
+          <li>
+            <p>
+              Homeless man: 'Mmm okay, they were light faires, it was about four
+              of them, all of them armed to the teeth. I saw them covered in
+              blood and laughing about how they killed anna. I swear it.'
+            </p>
+          </li>
+          <li>
+            <p>
+              User: 'Well okay then... uhm thank you for the information...'
+            </p>
+          </li>
+          <li>
+            <p>Homeles man: 'Of course anytime. *winks*'</p>
+          </li>
+        </ul>
+        <a href="conclusion.html" id="link" onclick="conclusion1()">Next...</a>
+      </div>
+      <div id="option-b">
+        <ul>
+          <li>
+            <p>
+              User: 'No, you are not going to take advantage of me! Thanks for
+              nothing.'
+            </p>
+          </li>
+          <li>
+            <p>Homeless man: 'Screw you!'</p>
+          </li>
+        </ul>
+        <a href="storeownertask.html" id="link2">Speak to store owner...</a>
+      </div>
+    </main>
+    <script src="scripts/storeownerscript.js"></script>
+    <script src="scripts/hgscript.js"></script>
+    <script src="scripts/responsivebg.js"></script>
+  </body>
+</html>
